@@ -1,12 +1,7 @@
-#Input Variables
-
 variable "resource_group_name" {
   type        = string
   description = "Name of the resource Group"
 }
-
 variable "location" {
-  type        = string
-  description = "Azure region"
-  default     = "East US"
+  type = string
 }
